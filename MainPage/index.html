@@ -1,0 +1,630 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>MAIN PAGE</title>
+    <link rel="stylesheet" href="../MainPage/index.css" />
+    <script src="../MainPage/index.js" defer></script>
+    <script
+      src="https://kit.fontawesome.com/2e18f2b45c.js"
+      crossorigin="anonymous"
+    ></script>
+  </head>
+  <body>
+    <!-- HEADER -->
+    <header>
+      <div class="header_container">
+        <nav>
+          <ul class="navigation">
+            <li><a href=""></a>Главная</li>
+            <li><a href=""></a>Оклейка автомобилей</li>
+            <li><a href=""></a>Детейлинг автомобилей</li>
+            <li><a href=""></a>Галерея работ</li>
+          </ul>
+        </nav>
+        <div class="icon">
+          <img src="../Assets/mainAssets/Group 6.svg" alt="" />
+        </div>
+      </div>
+      <div class="header_container_mobile">
+        <div class="icon_mob" onclick="show_nav() ; get_blur()">
+          <img src="../Assets/mainAssets/Group 6.svg" alt="" />
+        </div>
+        <nav>
+          <ul class="navigation_mobile">
+            <li><a href=""></a>Главная</li>
+            <li><a href=""></a>Оклейка автомобилей</li>
+            <li><a href=""></a>Детейлинг автомобилей</li>
+            <li><a href=""></a>Галерея работ</li>
+          </ul>
+        </nav>
+      </div>
+    </header>
+    <!-- CONTENT -->
+    <div class="wrapper">
+      <!-- /* MAIN */ -->
+      <main class="main_container">
+        <div class="main_info">
+          <h1>CAR BAKU</h1>
+          <div class="square">
+            <img src="../Assets/mainAssets/squares.svg" alt="" />
+          </div>
+          <p>
+            Lorem ipsum dolor sit amet, consectetur<br />
+            adipiscing elit. Vitae orci urna amet penatibus.
+          </p>
+          <a href="../ServicesPage/service.html" target="_blank">
+            <button class="our_services">
+              <p>Наши Услуги</p>
+            </button>
+          </a>
+        </div>
+        <div class="main_info1">
+          <div class="square1">
+            <p>АДРЕСС:</p>
+            <p>Baku , Yasamal.</p>
+            <p>Zardabi street 77</p>
+          </div>
+          <div class="square1">
+            <p>ТЕЛЕФОН:</p>
+            <p>+994(51)-602-01-91</p>
+            <p>+994(51)-602-01-91</p>
+          </div>
+          <div class="square1">
+            <p>РЕЖИМ РАБОТЫ:</p>
+            <p>ПН-ПТ: 10:00 - 21:00</p>
+            <p>СБ-ВС: 10:00 - 18:00</p>
+          </div>
+        </div>
+      </main>
+      <!-- Аdditional -->
+      <section class="container">
+        <div class="content_sec">
+          <div class="cup">
+            <h2>
+              Наши достижения от кубка россии<br />
+              до чемпионатов мира
+            </h2>
+            <div class="square">
+              <img src="../Assets/mainAssets/squares.svg" alt="" />
+            </div>
+            <p>
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit. Habitant
+              tincidunt aliquam tincidunt pretium sodales. Tristique odio
+              pellentesque et tincidunt posuere arcu purus lobortis risus. Urna,
+              ut amet odio orci magnis praesent ultrices. Praesent malesuada
+              lacus tellus tristique sit at. Sed viverra nulla nam arcu, non
+              iaculis pretium, volutpat.
+            </p>
+          </div>
+          <div class="raiting">
+            <div class="first">
+              <div class="one">
+                <p>#</p>
+                <p>
+                  Lorem ipsum dolor sit amet, consectetur<br />
+                  adipiscing elit. Quisque dui
+                </p>
+              </div>
+              <div class="one">
+                <p>#</p>
+                <p>
+                  Lorem ipsum dolor sit amet, consectetur<br />
+                  adipiscing elit. Quisque dui
+                </p>
+              </div>
+              <div class="one">
+                <p>#</p>
+                <p>
+                  Lorem ipsum dolor sit amet, consectetur<br />
+                  adipiscing elit. Quisque dui
+                </p>
+              </div>
+              <div class="one">
+                <p>#</p>
+                <p>
+                  Lorem ipsum dolor sit amet, consectetur<br />
+                  adipiscing elit. Quisque dui
+                </p>
+              </div>
+            </div>
+            <div class="first">
+              <div class="one">
+                <p>#</p>
+                <p>
+                  Lorem ipsum dolor sit amet, consectetur<br />
+                  adipiscing elit. Quisque dui
+                </p>
+              </div>
+              <div class="one">
+                <p>#</p>
+                <p>
+                  Lorem ipsum dolor sit amet, consectetur<br />
+                  adipiscing elit. Quisque dui
+                </p>
+              </div>
+              <div class="one">
+                <p>#</p>
+                <p>
+                  Lorem ipsum dolor sit amet, consectetur<br />
+                  adipiscing elit. Quisque dui
+                </p>
+              </div>
+              <div class="one">
+                <img src="../Assets/mainAssets/cup.svg" alt="" />
+                <p>
+                  Lorem ipsum dolor sit amet, consectetur<br />
+                  adipiscing elit. Quisque dui
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <!-- SLIDER -->
+      <section>
+        <div class="container_slider">
+          <div class="next">
+            <a onclick="plusSlides(1)">
+              <img src="../Assets/mainAssets/prev.svg" alt="" />
+            </a>
+          </div>
+          <div class="car_slider">
+            <div class="car_show">
+              <div class="car1">
+                <img src="../Assets/mainAssets/car_1.svg" alt="" />
+              </div>
+              <div class="car1">
+                <img src="../Assets/mainAssets/car_3.svg" alt="" />
+              </div>
+              <div class="car1">
+                <img src="../Assets/mainAssets/car_@.svg" alt="" />
+              </div>
+            </div>
+            <div class="car_show">
+              <div class="car1">
+                <img src="../Assets/mainAssets/car_4.svg" alt="" />
+              </div>
+              <div class="car1">
+                <img src="../Assets/mainAssets/car_5.svg" alt="" />
+              </div>
+              <div class="car1">
+                <img src="../Assets/mainAssets/car_6.svg" alt="" />
+              </div>
+            </div>
+            <div class="car_show">
+              <div class="car1">
+                <img src="../Assets/mainAssets/car_7.svg" alt="" />
+              </div>
+              <div class="car1">
+                <img src="../Assets/mainAssets/car_8.svg" alt="" />
+              </div>
+              <div class="car1">
+                <img src="../Assets/mainAssets/car9.svg" alt="" />
+              </div>
+            </div>
+            <div class="reds">
+              <div class="red">
+                <p>
+                  Lorem ipsum dolor, sit amet consectetur <br />adipisicing
+                  elit. Quae ut facilis odio
+                </p>
+              </div>
+              <div class="red">
+                <p>
+                  Lorem ipsum dolor, sit amet consectetur <br />adipisicing
+                  elit. Quae ut facilis odio
+                </p>
+              </div>
+              <div class="red">
+                <p>
+                  Lorem ipsum dolor, sit amet consectetur <br />adipisicing
+                  elit. Quae ut facilis odio
+                </p>
+              </div>
+            </div>
+          </div>
+          <div class="prev">
+            <a onclick="plusSlides(-1)">
+              <img src="../Assets/mainAssets/next.svg" alt="" />
+            </a>
+          </div>
+        </div>
+      </section>
+      <!-- OUR WORK -->
+      <section class="container">
+        <div class="car_content">
+          <div class="work">
+            <div class="best_companies">
+              <div class="mini_car">
+                <img src="../Assets/mainAssets/icon.svg" alt="" />
+                <p>МАТЕРИАЛЫ ОТ ЛУЧШИХ ПРОИЗОВИТЕЛЕЙ</p>
+              </div>
+              <p>
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                Pretium, rutrum est,<br />
+                molestie proin tristique duis sed. Morbi suspendisse amet nisl
+                vestibulum risus. Quis pretium
+              </p>
+            </div>
+            <div class="square">
+              <img src="../Assets/mainAssets/squares.svg" alt="" />
+            </div>
+            <div class="best_companies">
+              <div class="mini_car">
+                <img src="../Assets/mainAssets/icon_1.svg" alt="" />
+                <p>ОПЫТНЫЕ МАСТЕРА</p>
+              </div>
+              <p>
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                Pretium, rutrum est,<br />
+                molestie proin tristique duis sed. Morbi suspendisse amet nisl
+                vestibulum risus. Quis pretium
+              </p>
+            </div>
+            <div class="square">
+              <img src="../Assets/mainAssets/squares.svg" alt="" />
+            </div>
+            <div class="best_companies">
+              <div class="mini_car">
+                <img src="../Assets/mainAssets/icon_2.svg" alt="" />
+                <p>ГАРАНТИЯ НА ВСЕ РАБОТЫ</p>
+              </div>
+              <p>
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                Pretium, rutrum est,<br />
+                molestie proin tristique duis sed. Morbi suspendisse amet nisl
+                vestibulum risus. Quis pretium
+              </p>
+            </div>
+          </div>
+          <div class="work_">
+            <div class="icon_car">
+              <div class="front">
+                <img
+                  src="../Assets/mainAssets/wallpaperflare.com_wallpaper (1).jpg"
+                  alt=""
+                />
+              </div>
+              <div class="back">
+                <a href="../ServicesPage/service.html">
+                  <button>УСЛУГИ</button>
+                </a>
+              </div>
+            </div>
+            <div class="icon_car">
+              <div class="front">
+                <img
+                  src="../Assets/mainAssets/wallpaperflare.com_wallpaper (2).jpg"
+                  alt=""
+                />
+              </div>
+              <div class="back">
+                <a href="../ServicesPage/service.html">
+                  <button>УСЛУГИ</button>
+                </a>
+              </div>
+            </div>
+            <div class="icon_car">
+              <div class="front">
+                <img
+                  src="../Assets/mainAssets/wallpaperflare.com_wallpaper (3).jpg"
+                  alt=""
+                />
+              </div>
+              <div class="back">
+                <a href="../ServicesPage/service.html">
+                  <button>УСЛУГИ</button>
+                </a>
+              </div>
+            </div>
+            <div class="icon_car">
+              <div class="front">
+                <img
+                  src="../Assets/mainAssets/wallpaperflare.com_wallpaper (4).jpg"
+                  alt=""
+                />
+              </div>
+              <div class="back">
+                <a href="../ServicesPage/service.html">
+                  <button>УСЛУГИ</button>
+                </a>
+              </div>
+            </div>
+            <div class="icon_car">
+              <div class="front">
+                <img src="../Assets/mainAssets/icon_car.svg" alt="" />
+              </div>
+              <div class="back">
+                <a href="../ServicesPage/service.html">
+                  <button>УСЛУГИ</button>
+                </a>
+              </div>
+            </div>
+            <div class="next_prev">
+              <a onclick="plus_Slides(1)">
+                <img src="../Assets/mainAssets/prev.svg" alt="" />
+              </a>
+              <p>SHOW CARS</p>
+              <a onclick="plus_Slides(-1)">
+                <img src="../Assets/mainAssets/next.svg" alt="" />
+              </a>
+            </div>
+          </div>
+        </div>
+      </section>
+      <!-- OUR SERVICES -->
+      <section class="container">
+        <div class="service_content">
+          <h3>НАШИ УСЛУГИ</h3>
+          <div class="square">
+            <img src="../Assets/mainAssets/squares.svg" alt="" />
+          </div>
+          <div class="detailing">
+            <button><a href="../ServicesPage/service.html">ОКЛЕЙКА</a></button>
+            <button><a>ДЕТЕЙЛИНГ</a></button>
+          </div>
+          <div class="service_menu">
+            <div class="menu">
+              <div class="minicar">
+                <img src="../Assets/mainAssets/icon_3.svg" alt="" />
+              </div>
+              <h4>ЗАЩИТНЫЕ ПЛЕНКИ</h4>
+              <p>
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                Nascetur ultrices pellentesque vulputate sit. Ut feugiat.
+              </p>
+              <button>ПОДРОБНЕЕ</button>
+            </div>
+            <div class="menu">
+              <div class="minicar">
+                <img src="../Assets/mainAssets/icon_3.svg" alt="" />
+              </div>
+              <h4>ЦВЕТНЫЕ ПЛЕНКИ</h4>
+              <p>
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                Nascetur ultrices pellentesque vulputate sit. Ut feugiat.
+              </p>
+              <button>ПОДРОБНЕЕ</button>
+            </div>
+            <div class="menu">
+              <div class="minicar">
+                <img src="../Assets/mainAssets/icon_3.svg" alt="" />
+              </div>
+              <h4>ДИЗАЙН</h4>
+              <p>
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                Nascetur ultrices pellentesque vulputate sit. Ut feugiat.
+              </p>
+              <button>ПОДРОБНЕЕ</button>
+            </div>
+            <div class="menu">
+              <div class="minicar">
+                <img src="../Assets/mainAssets/icon_3.svg" alt="" />
+              </div>
+              <h4>ОКЛЕЙКА САЛОНА</h4>
+              <p>
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                Nascetur ultrices pellentesque vulputate sit. Ut feugiat.
+              </p>
+              <button>ПОДРОБНЕЕ</button>
+            </div>
+          </div>
+        </div>
+      </section>
+      <!-- MORE ABOUT SERVICES -->
+      <section class="container">
+        <div class="car_content">
+          <div class="work_">
+            <div class="icon_car_">
+              <div class="front_">
+                <img src="../Assets/mainAssets/car_.svg" alt="" />
+              </div>
+              <div class="back_">
+                <a href="../ServicesPage/service.html" target="_blank">
+                  <button>УСЛУГИ</button>
+                </a>
+              </div>
+            </div>
+            <div class="icon_car_">
+              <div class="front_">
+                <img
+                  src="../Assets/mainAssets/wallpaperflare.com_wallpaper (1).jpg"
+                  alt=""
+                />
+              </div>
+              <div class="back_">
+                <a href="../ServicesPage/service.html" target="_blank">
+                  <button>УСЛУГИ</button>
+                </a>
+              </div>
+            </div>
+            <div class="icon_car_">
+              <div class="front_">
+                <img
+                  src="../Assets/mainAssets/wallpaperflare.com_wallpaper (2).jpg"
+                  alt=""
+                />
+              </div>
+              <div class="back_">
+                <a href="../ServicesPage/service.html" target="_blank">
+                  <button>УСЛУГИ</button>
+                </a>
+              </div>
+            </div>
+            <div class="icon_car_">
+              <div class="front_">
+                <img
+                  src="../Assets/mainAssets/wallpaperflare.com_wallpaper (3).jpg"
+                  alt=""
+                />
+              </div>
+              <div class="back_">
+                <a href="../ServicesPage/service.html" target="_blank">
+                  <button>УСЛУГИ</button>
+                </a>
+              </div>
+            </div>
+            <div class="icon_car_">
+              <div class="front_">
+                <img
+                  src="../Assets/mainAssets/wallpaperflare.com_wallpaper (4).jpg"
+                  alt=""
+                />
+              </div>
+              <div class="back_">
+                <a href="../ServicesPage/service.html" target="_blank">
+                  <button>УСЛУГИ</button>
+                </a>
+              </div>
+            </div>
+            <div class="next_prev">
+              <a onclick="plus__Slides(1)">
+                <img src="../Assets/mainAssets/prev.svg" alt="" />
+              </a>
+              <p>SHOW CARS</p>
+              <a onclick="plus__Slides(-1)">
+                <img src="../Assets/mainAssets/next.svg" alt="" />
+              </a>
+            </div>
+          </div>
+          <div class="work">
+            <div class="best_companies">
+              <div class="mini_car">
+                <img src="../Assets/mainAssets/icon_3.svg" alt="" />
+                <p>МАТЕРИАЛЫ ОТ ЛУЧШИХ ПРОИЗОВИТЕЛЕЙ</p>
+              </div>
+              <p>
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                Pretium, rutrum est,<br />
+                molestie proin tristique duis sed. Morbi suspendisse amet nisl
+                vestibulum risus. Quis pretium
+              </p>
+            </div>
+            <div class="square">
+              <img src="../Assets/mainAssets/squares.svg" alt="" />
+            </div>
+            <div class="best_companies">
+              <div class="mini_car">
+                <img src="../Assets/mainAssets/icon_1.svg" alt="" />
+                <p>ОПЫТНЫЕ МАСТЕРА</p>
+              </div>
+              <p>
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                Pretium, rutrum est,<br />
+                molestie proin tristique duis sed. Morbi suspendisse amet nisl
+                vestibulum risus. Quis pretium
+              </p>
+            </div>
+            <div class="square">
+              <img src="../Assets/mainAssets/squares.svg" alt="" />
+            </div>
+            <div class="best_companies">
+              <div class="mini_car">
+                <img src="../Assets/mainAssets/icon_2.svg" alt="" />
+                <p>ГАРАНТИЯ НА ВСЕ РАБОТЫ</p>
+              </div>
+              <p>
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                Pretium, rutrum est,<br />
+                molestie proin tristique duis sed. Morbi suspendisse amet nisl
+                vestibulum risus. Quis pretium
+              </p>
+            </div>
+          </div>
+        </div>
+      </section>
+      <!-- WORK COLLECTION -->
+      <section class="main__container">
+        <h4>НАШИ РАБОТЫ</h4>
+        <div class="square">
+          <img src="../Assets/mainAssets/squares.svg" alt="" />
+        </div>
+        <div class="our_cars">
+          <img src="../Assets/mainAssets/car_4.svg" alt="" />
+          <img src="../Assets/mainAssets/car_5.svg" alt="" />
+          <img src="../Assets/mainAssets/car_6.svg" alt="" />
+          <img src="../Assets/mainAssets/car_7.svg" alt="" />
+          <img src="../Assets/mainAssets/car_8.svg" alt="" />
+          <img src="../Assets/mainAssets/car9.svg" alt="" />
+          <img src="../Assets/mainAssets/car_4.svg" alt="" />
+          <img src="../Assets/mainAssets/car_5.svg" alt="" />
+          <img src="../Assets/mainAssets/car_6.svg" alt="" />
+          <img src="../Assets/mainAssets/car_7.svg" alt="" />
+          <img src="../Assets/mainAssets/car_8.svg" alt="" />
+          <img src="../Assets/mainAssets/car9.svg" alt="" />
+          <img src="../Assets/mainAssets/car_4.svg" alt="" />
+          <img src="../Assets/mainAssets/car_5.svg" alt="" />
+          <img src="../Assets/mainAssets/car_6.svg" alt="" />
+          <img src="../Assets/mainAssets/car_7.svg" alt="" />
+          <img src="../Assets/mainAssets/car_8.svg" alt="" />
+          <img src="../Assets/mainAssets/car9.svg" alt="" />
+        </div>
+      </section>
+      <!-- CONTACT US -->
+      <section class="container">
+        <div class="contact_content">
+          <h5>ОТВЕТИМ НА ЛЮБОЙ ВОПРОС</h5>
+          <div class="square">
+            <img src="../Assets/mainAssets/squares.svg" alt="" />
+          </div>
+          <form action="" id="use_form">
+            <input type="text" placeholder="ИМЯ" />
+            <input type="number" placeholder="ТЕЛЕФОН" />
+          </form>
+          <div class="comments">
+            <textarea name="comment" form="use_form">
+ВОПРОСЫ ПО ДИЗАЙНУ,ТЮНИНГУ И Т.Д</textarea
+            >
+            <div class="social">
+              <a
+                href="https://www.youtube.com/watch?v=TDhL3E9W9O8&list=RDMM&index=6"
+              >
+                <img src="../Assets/mainAssets/telegram.svg" alt="" />
+              </a>
+              <a
+                href="https://www.youtube.com/watch?v=TDhL3E9W9O8&list=RDMM&index=6"
+              >
+                <img src="../Assets/mainAssets/youtube.svg" alt="" />
+              </a>
+              <a
+                href="https://www.youtube.com/watch?v=TDhL3E9W9O8&list=RDMM&index=6"
+              >
+                <img src="../Assets/mainAssets/smt.svg" alt="" />
+              </a>
+            </div>
+          </div>
+          <div class="our_number">
+            <button>ОТПРАВИТЬ</button>
+            <div class="location">
+              <i class="fa-solid fa-location-pin"></i>
+              <div class="number">
+                <i class="fa-solid fa-phone"></i>
+                <i class="fa-solid fa-envelope"></i>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <!-- FOOTER -->
+      <footer class="container">
+        <div class="footer_container">
+          <p>
+            2022 © Est et viverra pellentesque pharetra lorem proin in. Vitae
+            magna at tempus commodo.
+          </p>
+          <nav>
+            <ul class="navigation_footer">
+              <li><a href=""></a>Главная</li>
+              <li><a href=""></a>Оклейка автомобилей</li>
+              <li><a href=""></a>Детейлинг автомобилей</li>
+              <li><a href=""></a>Галерея работ</li>
+            </ul>
+          </nav>
+        </div>
+      </footer>
+    </div>
+  </body>
+</html>
